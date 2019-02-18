@@ -218,4 +218,35 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
 
+@media screen and (max-width: 640px) {
+  .search {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+    .share {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    html {
+      font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+      font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+}
+    
 
